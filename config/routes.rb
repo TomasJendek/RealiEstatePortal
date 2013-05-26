@@ -3,6 +3,7 @@ Web::Application.routes.draw do
   devise_for :users
 
   resources :apartments
+  resources :houses
 
   root :to => "apartments#index"
 

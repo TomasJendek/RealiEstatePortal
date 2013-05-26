@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130526200056) do
+ActiveRecord::Schema.define(:version => 20130526213357) do
 
   create_table "abilities", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -34,6 +34,34 @@ ActiveRecord::Schema.define(:version => 20130526200056) do
     t.boolean  "escalator"
     t.boolean  "loft"
     t.boolean  "mezonet"
+    t.integer  "locality"
+    t.integer  "ownership"
+    t.integer  "type"
+    t.integer  "owner"
+    t.text     "description"
+    t.boolean  "loan"
+    t.string   "name"
+    t.integer  "prize"
+    t.integer  "user_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "houses", :force => true do |t|
+    t.integer  "material"
+    t.integer  "state"
+    t.integer  "age"
+    t.integer  "bathroom"
+    t.boolean  "cellar"
+    t.boolean  "internet"
+    t.boolean  "parking"
+    t.integer  "room"
+    t.boolean  "telephone"
+    t.integer  "toalette"
+    t.boolean  "tv"
+    t.integer  "field_area"
+    t.integer  "house_area"
+    t.boolean  "escalator"
     t.integer  "locality"
     t.integer  "ownership"
     t.integer  "type"

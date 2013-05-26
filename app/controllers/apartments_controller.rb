@@ -1,13 +1,5 @@
 class ApartmentsController < ApplicationController
 
-  rescue_from CanCan::AccessDenied do |exception|
-    flash[:alert] = exception.message
-    puts exception.message
-    redirect_to user_session_path
-  end
-
-
-
   def show
     @apartment = Apartment.find(params[:id])
   end
@@ -24,7 +16,7 @@ class ApartmentsController < ApplicationController
     @apartment = Apartment.new
 
     @apartment = Apartment.new(params[:apartment])
-    @apartment.user_id = 1
+    @apartment.user_id = current_user.id
     respond_to do |format|
       if @apartment.save
         format.html  { redirect_to(@apartment,
@@ -38,4 +30,5 @@ class ApartmentsController < ApplicationController
       end
     end
   end
+
 end
