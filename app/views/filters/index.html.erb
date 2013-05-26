@@ -1,0 +1,14 @@
+Filter    <hr>
+
+<%= search_form_for @search do |f| %>
+    <div class="field">
+      <%= f.label :name_cont, "Name contains" %>
+      <%= f.text_field :name_cont %>
+    </div>
+    <div class="actions"><%= f.submit "Search" %></div>
+<% end %>
+
+
+<% @result.each do |res| %>
+       <%= res.name %><br>
+<% end %>

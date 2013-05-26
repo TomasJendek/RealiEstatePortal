@@ -4,8 +4,9 @@ Web::Application.routes.draw do
 
   resources :apartments
   resources :houses
+  resources :filters
 
-  root :to => "apartments#index"
+  root :to => "filters#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
