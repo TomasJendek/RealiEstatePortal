@@ -1,0 +1,56 @@
+<%= form_for (@apartment) do |f| %>
+    <% if @apartment.errors.any? %>
+        <div id="errorExplanation">
+          <h2><%= pluralize(@apartment.errors.count, "error") %> prohibited
+            this post from being saved:</h2>
+          <ul>
+            <% @apartment.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :description %>
+      <%= f.text_field :description %>
+    </div>
+    <div class="field">
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :loan %>
+      <%= f.select :loan, [['ano', true], ['nie', false]]%>
+    </div>
+
+    <div class="field">
+      <%= f.label :ownership %>
+      <%= f.select :ownership, [['osobne', 1]]%>
+    </div>
+
+    <div class="field">
+      <%= f.label :prize %>
+      <%= f.text_field :prize %>
+    </div>
+
+    <div class="field">
+      <%= f.label :age %>
+      <%= f.text_field :age %>
+    </div>
+
+    <div class="field">
+      <%= f.label :area %>
+      <%= f.text_field :area %>
+    </div>
+
+    <div class="field">
+      <%= f.label :bathroom %>
+      <%= f.select :bathroom, [['1', 1],['2', 2],['3', 3],['4', 4],['5', 5]] %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

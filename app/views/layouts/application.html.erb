@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RealEstatePortal</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
+
+<!-- Navbar ================================================== -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= render :partial => "layouts/menu" %>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <header class="jumbotron subhead" id="overview">
+    <%= render :partial => "layouts/header" %>
+  </header>
+
+
+  <section id="typography">
+    <%= render :partial => "layouts/content" %>
+  </section>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

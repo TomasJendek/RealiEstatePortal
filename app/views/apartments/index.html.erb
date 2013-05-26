@@ -1,0 +1,12 @@
+Property index
+<hr>
+<% @apartment.each do |apartment|  %>
+    Name: <%= apartment.name %>
+    <%= link_to 'Show', apartment %>  <br>
+<% end %>
+
+
+<hr>
+<% if can? :add, Apartment %>
+    <%= link_to 'New apartments', new_apartment_path %>
+<% end %>
