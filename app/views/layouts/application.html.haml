@@ -1,0 +1,21 @@
+%html
+  %head
+    %title RealEstatePortal
+    = stylesheet_link_tag "application", :media => "all"
+    =  stylesheet_link_tag "application", :media => "all"
+    =  stylesheet_link_tag "application", :media => "all"
+    = csrf_meta_tags
+
+%body.preview#top
+	
+  .navbar.navbar-fixed-top#top
+    .navbar-inner
+      .container
+        = render :partial => "layouts/menu"
+
+    .container
+      %header{:class => "jumbotron subhead", :id => "overview"}
+      = render :partial => "layouts/header"
+
+    %section#typography
+      = render :partial => "layouts/content"

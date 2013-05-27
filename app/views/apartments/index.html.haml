@@ -1,0 +1,10 @@
+%hr
+-@apartment.each do |apartment|
+    Name:
+    = apartment.name
+    = link_to 'Show', apartment
+    %br
+
+-if can? :add, Apartment
+    %hr
+    = link_to 'New apartments', new_apartment_path

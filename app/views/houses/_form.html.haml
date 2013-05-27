@@ -1,0 +1,47 @@
+= form_for @house do |f|
+  - if @house.errors.any?
+    #errorExplanation
+      %h2= pluralize(@house.errors.count, "error")
+      %ul
+        - @house.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    =f.label :description
+    =f.text_field :description
+
+  .field
+    =f.label :name
+    =f.text_field :name
+
+  .field
+    = f.label :loan
+    = f.select :loan, [['ano', true], ['nie', false]]
+
+  .field
+    = f.label :ownership
+    = f.select :ownership, [['osobne', 1]]
+
+
+  .field
+    = f.label :prize
+    = f.text_field :prize
+
+
+  .field
+    = f.label :age
+    = f.text_field :age
+
+
+  .field
+    = f.label :house_area
+    = f.text_field :house_area
+
+
+  .field
+    = f.label :bathroom
+    = f.select :bathroom, [['1', 1],['2', 2],['3', 3],['4', 4],['5', 5]]
+
+
+  %p.button
+    = f.submit
