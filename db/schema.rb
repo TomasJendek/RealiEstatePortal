@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130526213357) do
+ActiveRecord::Schema.define(:version => 20130531145811) do
 
   create_table "abilities", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -47,6 +47,16 @@ ActiveRecord::Schema.define(:version => 20130526213357) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "counties", :primary_key => "county_id", :force => true do |t|
+    t.string   "name"
+    t.integer  "state_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "counties", ["county_id"], :name => "index_counties_on_county_id", :unique => true
+  add_index "counties", ["state_id"], :name => "index_counties_on_state_id"
+
   create_table "houses", :force => true do |t|
     t.integer  "material"
     t.integer  "state"
@@ -74,6 +84,23 @@ ActiveRecord::Schema.define(:version => 20130526213357) do
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
+
+  create_table "regions", :primary_key => "region_id", :force => true do |t|
+    t.string   "name"
+    t.integer  "county_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "regions", ["region_id"], :name => "index_regions_on_region_id", :unique => true
+
+  create_table "states", :primary_key => "state_id", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "states", ["state_id"], :name => "index_states_on_state_id", :unique => true
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

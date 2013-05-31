@@ -19,91 +19,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <file leaf-file-name="imports_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/imports_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.75">
+            <state line="16" column="30" selection-start="600" selection-end="600" vertical-scroll-proportion="0.28402367">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/apartments/show.html.haml">
+      <file leaf-file-name="20130530211346_create_counties.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130530211346_create_counties.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="21" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.875">
+            <state line="6" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/apartments/new.html.haml">
+      <file leaf-file-name="20130531095117_change_table_state.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130531095117_change_table_state.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.875">
+            <state line="2" column="43" selection-start="66" selection-end="105" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/apartments/index.html.haml">
+      <file leaf-file-name="20130531145811_create_regions.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130531145811_create_regions.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="1" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.625">
+            <state line="14" column="94" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/apartments/_form.html.haml">
+      <file leaf-file-name="region.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/region.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="4" selection-start="710" selection-end="710" vertical-scroll-proportion="-26.25">
+            <state line="4" column="29" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/houses/show.html.haml">
+      <file leaf-file-name="20130531095320_change_table_state2.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130531095320_change_table_state2.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="10" selection-start="32" selection-end="32" vertical-scroll-proportion="-1.875">
+            <state line="4" column="60" selection-start="67" selection-end="204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/houses/index.html.haml">
+      <file leaf-file-name="state.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/state.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="42" selection-start="176" selection-end="176" vertical-scroll-proportion="-6.25">
+            <state line="1" column="30" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/houses/_form.html.haml">
+      <file leaf-file-name="county.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/county.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="-11.875">
+            <state line="11" column="36" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/houses/new.html.haml">
+      <file leaf-file-name="20130531100308_change_counties.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130531100308_change_counties.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="20" selection-end="20" vertical-scroll-proportion="-1.25">
+            <state line="5" column="4" selection-start="197" selection-end="256" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/filters/index.html.haml">
+      <file leaf-file-name="house.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/house.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,27 +119,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_content.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_content.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/apartments/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/apartments/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/apartments/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/apartments/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/apartments/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/apartments/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/houses/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/houses/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/houses/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/houses/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filters/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filters/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/manager.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130530211346_create_counties.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130531095117_change_table_state.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130531095320_change_table_state2.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130531100308_change_counties.rb" />
+        <option value="$PROJECT_DIR$/app/models/state.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130531145811_create_regions.rb" />
+        <option value="$PROJECT_DIR$/app/models/county.rb" />
+        <option value="$PROJECT_DIR$/app/models/region.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/imports_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
+    <option name="x" value="49" />
     <option name="y" value="52" />
     <option name="width" value="1457" />
     <option name="height" value="1028" />
@@ -287,6 +287,24 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="houses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -311,24 +329,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,8 +446,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,15 +715,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="52" width="1457" height="1028" extended-state="4" />
+    <frame x="49" y="52" width="1457" height="1028" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24875621" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26083866" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -732,6 +731,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -791,114 +791,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/models/apartment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
+        <state line="9" column="29" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/apartments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/filters_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/houses_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130530205557_create_states.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="16" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-18.5">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_content.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/house.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.25">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_menu.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130531095320_change_table_state2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="205" selection-end="205" vertical-scroll-proportion="-2.5">
+        <state line="4" column="60" selection-start="67" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/state.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="51" selection-start="339" selection-end="339" vertical-scroll-proportion="-8.75">
+        <state line="1" column="30" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130530211346_create_counties.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.75">
+        <state line="6" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/apartments/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130531095117_change_table_state.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.875">
+        <state line="2" column="43" selection-start="66" selection-end="105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/apartments/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130531100308_change_counties.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.875">
+        <state line="5" column="4" selection-start="197" selection-end="256" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/apartments/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130531145811_create_regions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.625">
+        <state line="14" column="94" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/apartments/_form.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/county.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="4" selection-start="710" selection-end="710" vertical-scroll-proportion="-26.25">
+        <state line="11" column="36" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/houses/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/region.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="32" selection-end="32" vertical-scroll-proportion="-1.875">
+        <state line="4" column="29" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/houses/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/imports_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="176" selection-end="176" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/houses/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="-11.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/houses/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="20" selection-end="20" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/filters/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+        <state line="16" column="30" selection-start="600" selection-end="600" vertical-scroll-proportion="0.28402367">
           <folding />
         </state>
       </provider>
