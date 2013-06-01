@@ -1,3 +1,9 @@
+# -*- encoding : utf-8 -*-
+
+require 'open-uri'
+require 'net/http'
+require 'cgi'
+
 class ImportsController < ApplicationController
 
   def self.initializeStates
@@ -12,7 +18,7 @@ class ImportsController < ApplicationController
 
   def self.initializeCounties
     state = State.where(:name => "Slovensko").first
-    counties = ["Bratislavsky", "Kosicky", "Banskobystricky", "Nitriansky", "Presovsky", "Trenciansky", "Trnavsky", "Zilinsky"]
+    counties = ["Bratislavský", "Košický", "Banskobystrický", "Nitriansky", "Prešovský", "Trenčiansky", "Trnavský", "Žilinský"]
 
     counties.each_with_index do |c, index|
       initCounty(c, index+1, state)
@@ -23,15 +29,15 @@ class ImportsController < ApplicationController
   def self.initializeRegions
     @index = 0
 
-    bratislavsky_kraj = County.where(:name => "Bratislavsky").first
+    bratislavsky_kraj = County.where(:name => "Bratislavský").first
     bratislavsky_kraj_regions = ["Bratislava", "Malacky", "Pezinok", "Senec"]
 
     bratislavsky_kraj_regions.each do |r|
       initRegion(r, index += 1, bratislavsky_kraj)
     end
 
-    banskobystricky_kraj = County.where(:name => "Banskobystricky").first
-    banskobystricky_kraj_regions = ["Banska Bystrica", "Banska Stiavnica", "Brezno", "Detva", "Krupina", "Lucenec", "Poltar", "Revuca", "Rimavska Sobota", "Velky Krtis", "Zarnovica", "Ziar nad Hronom", "Zvolen"]
+    banskobystricky_kraj = County.where(:name => "Banskobystrický").first
+    banskobystricky_kraj_regions = ["Banská Bystrica", "Banská Štiavnica", "Brezno", "Detva", "Krupina", "Lučenec", "Poltár", "Revúca", "Rimavská Sobota", "Veľký Krtíš", "Žarnovica", "Žiar nad Hronom", "Zvolen"]
 
     banskobystricky_kraj_regions.each do |r|
       initRegion(r, index += 1, banskobystricky_kraj)
@@ -91,5 +97,44 @@ class ImportsController < ApplicationController
     region =  Region.new(:name => name, :region_id => id)
     region.county = county
     region.save
+  end
+
+  def self.localityParser
+    @location_index = 1
+    @region_index = 1
+    begin
+      doc = Nokogiri::HTML(open("http://sk.wikipedia.org/wiki/Zoznam_slovensk%C3%BDch_miest,_obc%C3%AD_a_vojensk%C3%BDch_obvodov"))
+    rescue OpenURI::HTTPError => ex
+      return
+    end
+
+    nodes = doc.xpath('//div[@id="content"]')
+    nodes = nodes.xpath('//table/tr')
+    nodes.each do |item|
+      #puts "Kraj: "+ item.css('td')[2].text.to_s.split(' ')[0] if !item.css('td')[2].nil?
+      #puts "Okres: "+ item.css('td')[1].text.to_s if !item.css('td')[1].nil?
+      #puts "Meno: "+ item.css('td')[0].text.to_s  if !item.css('td')[0].nil?
+      #puts "================"
+
+      if  !item.css('td')[1].nil? & !item.css('td')[2].nil? & !item.css('td')[3].nil?
+        county = item.css('td')[2].text.to_s.split(' ')[0].strip
+        c = County.where(:name => county).first
+
+        region = item.css('td')[1].text.to_s.strip
+        r = Region.where(:name => region).first
+        if r.nil?
+          initRegion(region, @region_index+=1, c)
+        end
+
+        name = item.css('td')[0].text.to_s.strip
+
+        r = Region.where(:name => region).first
+        location = Location.new(:name => name, :location_id => @location_index+=1)
+        location.region = r
+        location.save
+
+        puts name+"|"+region+"|"+county
+      end
+    end
   end
 end

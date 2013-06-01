@@ -6,3 +6,15 @@
     = f.text_field :name_cont
     .actions
     = f.submit "Search"
+
+%hr
+    -@counties.each do |county|
+        %p
+        %br
+        =county.name
+        %hr
+        -county.regions.each do |region|
+            %br
+            =region.name
+
+

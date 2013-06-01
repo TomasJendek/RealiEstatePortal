@@ -61,6 +61,9 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.0)
+    kaminari (0.14.1)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -68,6 +71,10 @@ GEM
     mime-types (1.23)
     multi_json (1.7.3)
     mysql2 (0.3.11)
+    net-scp (1.1.0)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.6.5)
+    nokogiri (1.5.6)
     orm_adapter (0.4.0)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
@@ -132,7 +139,11 @@ DEPENDENCIES
   devise
   haml-rails (>= 0.3.4)
   jquery-rails
+  kaminari
   mysql2
+  net-scp
+  net-ssh
+  nokogiri
   rails (= 3.2.3)
   ransack
   sass-rails (~> 3.2.3)

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130531145811) do
+ActiveRecord::Schema.define(:version => 20130601174045) do
 
   create_table "abilities", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(:version => 20130531145811) do
     t.integer  "user_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.integer  "state_id"
   end
 
   create_table "counties", :primary_key => "county_id", :force => true do |t|
@@ -84,6 +85,15 @@ ActiveRecord::Schema.define(:version => 20130531145811) do
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
+
+  create_table "locations", :primary_key => "location_id", :force => true do |t|
+    t.string   "name"
+    t.integer  "region_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "locations", ["location_id"], :name => "index_locations_on_location_id", :unique => true
 
   create_table "regions", :primary_key => "region_id", :force => true do |t|
     t.string   "name"
